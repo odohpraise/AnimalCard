@@ -1,0 +1,58 @@
+
+.main {
+    min-width: 50%;
+    width: 80%;
+    margin :0 auto;
+    display: flex;
+}
+.card{
+    box-shadow: 10px 10px 17px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 17px -4px rgba(0,0,0,0.75);
+}
+.card img {
+    width: 100%;
+    
+}
+.img-body h2{
+    margin-left: 15px;
+}
+.about{
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid black;
+    border-width: thin;
+    padding:10px 5px;
+    
+    /* background-color: red; */
+}
+.about .Breed, .about .size{
+    border-right: 2px solid rgb(112, 105, 105);
+    /* text-align: center; */
+    /* margin:0 5px; */
+    padding: 0px 5px;
+}
+.about h3 {
+    font-weight: bolder;
+    color: rgb(154, 162, 138);
+    margin-bottom: -10px;
+}
+.about p {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.paragraph{
+ margin: 12px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-footer{
+    background-color:   rgb(154, 162, 138);;
+    padding: 10px 0;
+    text-align: center;
+}
+.card-footer a {
+text-decoration: none;
+text-transform: uppercase;
+color: rgb(233, 233, 233);
+}
